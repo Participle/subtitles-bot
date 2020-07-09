@@ -1,0 +1,29 @@
+{
+    "name": "Subtitle Search Bot",
+    "description": "this app does one little thing, and does it well.",
+    "keywords": [
+        "productivity",
+        "search",
+        "subtitle",
+        "srt",
+        "mappo"
+    ],
+    "website": "https://telesco.pe/SpEcHlDe",
+    "repository": "https://github.com/SpEcHiDe/subtle-search-er/tree/PTB",
+    "success_url": "/",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },
+        "SAPI_BASE_URL": {
+            "description": "your Subtitle Search API URL"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
